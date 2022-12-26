@@ -1,0 +1,25 @@
+{
+  "name": "minimal-hugo-demo",
+  "version": "1.0.0",
+  "description": "A website demonstrating the Hugo theme Minimal Hugo.",
+  "private": true,
+  "author": "Higama-ya",
+  "license": "MIT",
+  "homepage": "https://github.com/higamaya/minimal-hugo-demo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/higamaya/minimal-hugo-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/higamaya/minimal-hugo-demo/issues"
+  },
+  "scripts": {
+    "start": "hugo server --ignoreCache"
+  },
+  "devDependencies": {
+    "hugo-extended": "^0.109.0",
+    "prettier": "^2.8.1",
+    "prettier-plugin-go-template": "^0.0.13",
+    "prettier-plugin-toml": "^0.3.1"
+  }
+}

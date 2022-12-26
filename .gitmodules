@@ -1,0 +1,3 @@
+[submodule "themes/minimal-hugo"]
+	path = themes/minimal-hugo
+	url = https://github.com/higamaya/minimal-hugo.git

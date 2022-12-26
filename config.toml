@@ -1,0 +1,49 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Minimal Hugo"
+copyright = "© 2022 EXAMPLE"
+theme = "minimal-hugo"
+publishDir = "docs"
+enableEmoji = true
+enableGitInfo = true
+googleAnalytics = "G-EXAMPLE"
+
+[params]
+description = "A website demonstrating the Hugo theme Minimal Hugo."
+images = ["images/icatch_1200x630.png"]
+
+[params.theme]
+logo = "images/logo_192x192.png"
+externalLinkInNewTab = false
+
+[author]
+name = "John Doe"
+email = "john_doe@example.com"
+
+[social]
+github = "example.com"
+twitter = "example.com"
+
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+
+[taxonomies]
+
+[[menu.main]]
+name = "Home"
+pre = "<i class='fa-solid fa-house'></i>"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Features"
+pre = "<i class='fa-solid fa-wrench'></i>"
+url = "/features/"
+weight = 2
+
+[[menu.main]]
+name = "Privacy"
+pre = "<i class='fa-solid fa-shield-halved'></i>"
+url = "/privacy/"
+weight = 3
